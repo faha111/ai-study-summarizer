@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Summarizer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-6 flex flex-col items-center">
+  <main class="max-w-2xl w-full bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700 mt-10">
+    <h1 class="text-3xl font-bold text-center text-blue-400 mb-2">AI Study Summarizer</h1>
+    <p class="text-gray-400 text-center mb-6">Paste your long lecture notes below to extract key summary points instantly.</p>
+
+    <textarea id="inputText" rows="6" class="w-full p-4 rounded-lg bg-gray-900 border border-gray-700 text-gray-200 focus:outline-none focus:border-blue-500 mb-4" placeholder="Paste your study notes here..."></textarea>
+
+    <button id="summarizeBtn" onclick="summarizeNotes()" class="w-full bg-blue-600 hover:bg-blue-500 font-semibold py-3 rounded-lg transition duration-200">
+      Generate Summary
+    </button>
+
+    <div id="outputContainer" class="mt-6 hidden">
+      <h2 class="text-xl font-semibold text-blue-300 mb-2">Summary Points:</h2>
+      <ul id="summaryList" class="list-disc list-inside space-y-2 bg-gray-900 p-4 rounded-lg border border-gray-700 text-gray-300"></ul>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
