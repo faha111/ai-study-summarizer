@@ -14,4 +14,4 @@ A lightweight, responsive web application designed for students to convert long 
 ## 🚀 How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/ai-study-summarizer.git](https://github.com/YOUR_GITHUB_USERNAME/ai-study-summarizer.git)
+   git clone [https://github.com/faha111/ai-study-summarizer.git](https://github.com/YOUR_GITHUB_USERNAME/ai-study-summarizer.git)
